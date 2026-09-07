@@ -1,5 +1,6 @@
 /config/master.key
 /.bundle
+/vendor/bundle
 /log/*
 /tmp/*
 !/log/.keep
