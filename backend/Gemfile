@@ -15,6 +15,9 @@ gem "puma", ">= 5.0"
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem "tzinfo-data", platforms: %i[ windows jruby ]
 
+# Active Record's JSON type relies on the JSON 2.x parsing interface.
+gem "json", "~> 2.10"
+
 # RubyInstaller bundles these versions; newer releases require native
 # dependencies that are unavailable in this Windows Devkit setup.
 gem "rdoc", "7.0.4"
