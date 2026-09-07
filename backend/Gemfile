@@ -22,5 +22,5 @@ gem "json", "~> 2.10"
 # dependencies that are unavailable in this Windows Devkit setup.
 gem "rdoc", "7.0.4"
 
-# Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin Ajax possible
-# gem "rack-cors"
+# Allow the local Next.js editor to call the API during development.
+gem "rack-cors"
